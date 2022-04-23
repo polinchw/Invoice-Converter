@@ -2,3 +2,5 @@
 /.idea
 test/__pycache__
 __pycache__
+invoice.xlsx
+invoice-single.xlsx
