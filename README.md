@@ -1,5 +1,5 @@
 # Invoice-Converter
-A python code for converting Invoice in PDF format to Excel file.
+A python program for converting Invoice in PDF format to Excel file.
 
 Businesses today often share their Billing Invoices in the pdf format via email, in order to reduce the cost of printing. But further the goods & service receiver who gets the invoice has to read the pdf and type the data manually into his records.
 
