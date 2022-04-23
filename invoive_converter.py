@@ -1,11 +1,6 @@
 # INVOICE CONVERTER - Convert Invoice from pdf to excel
 # By - Aptr13(https://github.com/ApTr13)
 
-#******IMPORTANT******
-#Before running the code install these two libraries:
-#$ pip install PyPDF2
-#$ pip install openpyxl
-
 # Import libraries 
 import PyPDF2
 from PyPDF2 import PdfFileWriter, PdfFileReader
