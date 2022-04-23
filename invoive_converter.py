@@ -10,10 +10,11 @@
 import PyPDF2
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from openpyxl import Workbook
+import sys
 
 # Set input and output file names 
-input_file = 'invoice.pdf'
-output_file = 'invoice.xlsx'
+input_file = sys.argv[1]  
+output_file = sys.argv[2]
 
 # Open & Read PDF
 pdf_file = open(input_file,'rb')

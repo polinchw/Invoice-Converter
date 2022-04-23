@@ -31,6 +31,12 @@ pip install PyPDF2
 pip install openpyxl
 ```
 
+or 
+
+```
+pip3 install -r requirements.txt
+```
+
 2. Enter the name of your input pdf and output excel files in the variables, **input_file** and **output_file** rrespectively.
 
 3. Choose the fields that you wish to extract from your PDF invoice and mention them in the array **main_list**.
@@ -39,9 +45,28 @@ pip install openpyxl
 
 5. Test your output **.xlsx** file to see if conversion is acceptable.
 
+## Install Python Virtual Environment
 
-## Limitations
-The required condition for the module to give good results is that the data should be structured in tabular formats. Also the field and its value should be adjacent to each other.
+```
+python3 -m venv venv
+source venv/bin/activate
+```
 
-For any queries and suggestions, mail at:
-apurvatripathi13@gmail.com
+## Install Dependencies
+
+```
+pip3 install -r requirements.txt 
+```
+
+
+## Usage
+
+```
+python3 invoive_converter.py <<pdf_input file>> <<excel_output>>
+```
+
+## Sample 
+```
+python3 invoive_converter.py invoice.pdf invoice.xlsx
+```
+
