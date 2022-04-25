@@ -64,7 +64,12 @@ for i in range(total_pages):
                 # Extract field values
                 field_value = page_content[field_value_start_pos:field_value_end_pos]
                 # Write field values into Excel
-                ws.cell(row = row_num, column = column_num, value = field_value)
+                clean_up = field_value.replace('\n', '') 
+                clean_up = clean_up.replace(' ','')
+                clean_up = clean_up.replace('Invoice','')
+                clean_up = clean_up.replace('From','')
+                clean_up = clean_up.replace('To','')
+                ws.cell(row = row_num, column = column_num, value = clean_up)
                 column_num += 1
         row_num += 1
 
