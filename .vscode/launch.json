@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Python: Run invoice_converter.py",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "invoice_converter.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["invoice.pdf", "my.xlsx"]
